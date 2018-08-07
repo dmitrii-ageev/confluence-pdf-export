@@ -5,8 +5,10 @@
 
  Class constructor expects to get server_url, template_id, and page_id. These parameters are mandatory!
  Optional parameters are: options and auth
+
  Example:
-     file_name = ScrollPDFExport('http://my.confluence.server', 'Documents', '1234134', {'scope': 'current'}, ('admin', 'mypassword'), False)
+    pdf_export = ScrollPDFExport('http://my.confluence.server', 'Documents', '1234134', {'scope': 'current'}, ('admin', 'mypassword'), False)
+    pdf_export.download_pdf_file()
 
  Supported options:
      scope          : "current" or "descendants"
