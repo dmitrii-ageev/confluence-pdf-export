@@ -8,7 +8,7 @@
 **Example:**
 ```
 pdf_export = ScrollPDFExport('http://my.confluence.server', 'Documents', '1234134', {'scope': 'current'}, ('admin', 'mypassword'), False)
-pdf_export.download_pdf_file()
+pdf_export.download_pdf_file('my_file_name.pdf')
 ```
 
 ## Supported options
