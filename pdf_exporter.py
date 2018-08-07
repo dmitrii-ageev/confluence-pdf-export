@@ -31,7 +31,7 @@ import configparser
 import os.path
 
 OPTIONS={'Defaults': ['file_name'], 'Confluence': ['server_url', 'page_id', 'template_id', 'scope'], 'Authentication': ['username', 'password']}
-CONFIG_FILE=os.path.expanduser('pdf_exporter.ini')
+CONFIG_FILE='pdf_exporter.ini'
 
 # Load the configuration file
 options = dict()
