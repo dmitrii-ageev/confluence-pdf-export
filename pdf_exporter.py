@@ -1,17 +1,19 @@
 #!/usr/bin/env python3
 """
 This program downloads a Confluence Space as PDF file.
+You need Scroll PDF Plugin installed on your Confluence server.
+https://www.k15t.com/software/scroll-pdf-exporter
 
 User name and the password could be defined in pdf_exporter.ini or ~/.pdf_exporter.ini files.
 Here is a file example:
 
 ---[ pdf_exporter.ini ]---
 [Defaults]
-file_name=confluence_space.pdf
+file_name = confluence_space.pdf
 
 [Authentication]
-username=admin
-password=admin
+username = admin
+password = admin
 
 [Confluence]
 server_url = https://confluence.server.com
