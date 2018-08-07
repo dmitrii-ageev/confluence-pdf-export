@@ -22,6 +22,9 @@ pdf_export.download_pdf_file('my_file_name.pdf')
 
 ## Changelog
 
+    v1.0.2 - 2018-08-08
+        * Stable version
+
     v1.0.1 - 2018-08-07
         * Initial version
 
