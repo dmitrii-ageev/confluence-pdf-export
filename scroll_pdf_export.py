@@ -174,8 +174,7 @@ class ScrollPDFExport():
             filename = urllib.parse.unquote('%s/%s' % (os.getcwd(), download_url.split('/')[-1]))
         else:
             # Check if the file's upper level directory exists
-            path = os.path.dirname(filename)
-            if not os.path.isdir(path):
+            if path != '' and not os.path.isdir(path):
                 raise ValueError('The file path does not exist! (%s)' % path)
 
         # Download the file only if it doesn't exist
