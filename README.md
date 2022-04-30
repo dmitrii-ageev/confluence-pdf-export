@@ -1,4 +1,4 @@
-# scroll-pdf-export
+# confluence-pdf-export
 
  **scroll_pdf_export.py** Python module for asynchronous export Atlassian Confluence Space or Page with Scroll PDF Export plugin.
  https://www.k15t.com/software/scroll-pdf-exporter
