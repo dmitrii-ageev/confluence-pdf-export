@@ -35,7 +35,7 @@ pdf_export.download_pdf_file('my_file_name.pdf')
 
 ## Author
 
- Dmitrii Ageev <d.ageev@gmail.com>
+ Dmitrii Ageev <dmitrii@opsworks.ru>
 
  License to use, modify, and distribute under the GPLv2
  https://www.gnu.org/licenses/gpl-2.0.txt
